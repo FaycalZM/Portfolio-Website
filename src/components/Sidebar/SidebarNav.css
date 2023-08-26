@@ -1,0 +1,88 @@
+/* this is the styling of our sidebar navigation */
+.sidebar-nav {
+    font-family: 'FuturaPT', sans-serif;
+    font-weight: 700;
+    font-style: oblique;
+    animation: bounceInUp 1.3s 1s backwards;
+}
+
+nav>a {
+    position: relative;
+    text-align: center;
+    color: var(--secondary-gray);
+    font-size: 1.85rem;
+    /* animation: bounceInDown 1.2s 4s backwards; */
+}
+
+nav>a.active {
+    color: var(--primary-yellow);
+}
+
+nav>a>svg {
+    transition: all .3s ease-out;
+}
+
+nav>a:hover {
+    color: var(--primary-yellow);
+}
+
+nav>a:hover>svg {
+    opacity: 0;
+}
+
+nav>a:hover::after {
+    opacity: 1;
+}
+
+nav>a::after {
+    content: '';
+    text-transform: capitalize;
+    width: fit-content;
+    opacity: 0;
+    font-size: .85rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all .3s ease-out;
+}
+
+nav>a:first-child::after {
+    content: 'home';
+}
+
+nav>a:nth-child(2)::after {
+    content: 'skills';
+}
+
+
+nav>a:nth-child(3)::after {
+    content: 'career';
+}
+
+nav>a:nth-child(4)::after {
+    content: 'projects';
+}
+
+nav>a:nth-child(5)::after {
+    content: 'contact';
+}
+
+.logo {
+    animation: rubberBand 1.2s 4s backwards;
+}
+
+.logo:hover {
+    animation: hinge 1.5s forwards;
+}
+
+/* ****************************************** */
+
+.social-links a {
+    transition: all .3s ease-out;
+}
+
+.social-links a:hover {
+    color: var(--primary-yellow);
+    animation: rubberBand 1.2s forwards;
+}

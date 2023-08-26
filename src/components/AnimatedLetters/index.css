@@ -1,0 +1,23 @@
+.animated-letter {
+    opacity: 0;
+    display: inline-block;
+    margin: 0 .5px;
+    white-space: pre;
+    animation: bounceIn .5s forwards;
+}
+
+
+.animated-letter-hover {
+    display: inline-block;
+    margin: 0 .5px;
+    white-space: pre;
+    cursor: default;
+}
+
+.animated-letter-hover:hover {
+    color: var(--primary-yellow);
+}
+
+.animateHover {
+    animation: rubberBand 1.2s both;
+}

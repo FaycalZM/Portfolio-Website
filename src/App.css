@@ -1,0 +1,7 @@
+.main-content {
+    font-family: 'League Spartan', sans-serif;
+}
+
+.tag {
+    animation: fadeIn 1.2s 4s forwards;
+}

@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* *********************************************************** */
+/* global variables and font styles */
+:root {
+  --primary-yellow: #ffd700;
+  --primary-white: #fff;
+  --secondary-gray: #4d4d4e;
+  --very-dark-blue: #022c43;
+  --very-dark-gray: #181818;
+  --dark-gray: #333;
+}
+
+@font-face {
+  font-family: 'FuturaPT';
+  src: url('./assets/Futura/FuturaPTLight.otf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FuturaPT';
+  src: url('./assets/Futura/FuturaPTLightOblique.otf') format('truetype');
+  font-weight: 300;
+  font-style: oblique;
+}
+
+@font-face {
+  font-family: 'FuturaPT';
+  src: url('./assets/Futura/FuturaPTMedium.otf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FuturaPT';
+  src: url('./assets/Futura/FuturaPTMediumOblique.otf') format('truetype');
+  font-weight: 500;
+  font-style: oblique;
+}
+
+
+@font-face {
+  font-family: 'FuturaPT';
+  src: url('./assets/Futura/FuturaPTHeavy.otf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FuturaPT';
+  src: url('./assets/Futura/FuturaPTHeavyOblique.otf') format('truetype');
+  font-weight: 700;
+  font-style: oblique;
+}
+
+@font-face {
+  font-family: 'FuturaPT';
+  src: url('./assets/Futura/FuturaPTExtraBold.otf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+/* **************************************************************** */
+
+
+
+html {
+  /* overflow-x: hidden !important; */
+  scroll-behavior: smooth;
+  list-style: none;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}

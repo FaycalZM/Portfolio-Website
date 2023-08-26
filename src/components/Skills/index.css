@@ -1,0 +1,7 @@
+.skill {
+    animation: bounceInLeft 1.2s backwards;
+}
+
+img {
+    animation: bounceInUp 1s backwards;
+}
