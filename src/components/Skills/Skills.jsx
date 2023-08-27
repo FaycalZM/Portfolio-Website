@@ -43,7 +43,7 @@ const Skills = () => {
             stackData.map((icon, index) => {
               return <img
                 key={index}
-                className='h-[12.5vh] hover:scale-125 transition-transform duration-150 ease-in'
+                className='tech-icon h-[12.5vh] hover:scale-125 transition-transform duration-150 ease-in'
                 style={{
                   animationDelay: `${1 + index / 10}s`
                 }}

@@ -2,6 +2,6 @@
     animation: bounceInLeft 1.2s backwards;
 }
 
-img {
+.tech-icon {
     animation: bounceInUp 1s backwards;
 }

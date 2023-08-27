@@ -1,0 +1,7 @@
+.project-card:hover>.project-details {
+    animation: fadeInUp 1s 0.1s forwards;
+}
+
+.card {
+    animation: bounceInDown 1s backwards;
+}

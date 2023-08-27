@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import 'animate.css'
 import './index.css'
@@ -52,13 +52,13 @@ const HeroSection = () => {
           <div className='flex gap-8'>
             <Link
               to={'/contact'}
-              className="btn text-primary-yellow text-xl font-bold border-primary-yellow border-2 p-2.5 mt-6 capitalize
+              className="btn text-primary-yellow text-xl font-bold border-primary-yellow border-2 p-2.5 mt-6 capitalize transition-all duration-150 ease-in
             hover:bg-primary-yellow hover:shadow-[4px_4px_0px_#ffd700] hover:text-dark-gray hover:border-dark-gray"
             >
               Contact Me
             </Link>
             <a
-              className="btn text-dark-gray text-xl font-bold bg-primary-yellow border-primary-yellow border-2 p-2.5 mt-6 capitalize cursor-pointer
+              className="btn text-dark-gray text-xl font-bold bg-primary-yellow border-primary-yellow border-2 p-2.5 mt-6 capitalize cursor-pointer transition-all duration-150 ease-in
             hover:bg-very-dark-blue hover:shadow-[4px_4px_0px_#ffd700] hover:text-primary-yellow"
             >
               my resume

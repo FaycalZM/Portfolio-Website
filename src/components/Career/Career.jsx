@@ -7,13 +7,13 @@ const Career = () => {
   return (
     <AnimatedPage>
       <div>
-        <div className='section-header flex items-baseline gap-4'>
+        <div className='section-header flex items-baseline gap-4 -mt-4'>
           <h1 className='text-primary-white text-4xl font-bold font-Futura capitalize '>About me</h1>
           <hr className='h-[1px] border-none opacity-80 flex-1 bg-primary-yellow' />
         </div>
         <div className='container flex justify-between'>
-          <div className='infos w-[45%] mt-4 py-2 '>
-            <legend className="w-fit ml-[50%] translate-x-[-50%] border-2 border-primary-yellow rounded-3xl py-1 px-8 font-semibold text-xl text-primary-yellow">
+          <div className='infos w-[45%] mt-2 py-2 '>
+            <legend className="w-fit ml-[50%] translate-x-[-50%] border-2 border-primary-yellow rounded-3xl py-1 px-8 font-semibold text-xl text-primary-yellow text-opacity-90">
               Education
             </legend>
             <div className='flex gap-8 mt-8'>
@@ -25,7 +25,7 @@ const Career = () => {
               <div
                 className='
                 border-[1px] border-primary-yellow px-2.5 py-2 capitalize w-full font-Futura
-                hover:bg-very-dark-blue hover:shadow-[4px_4px_0px_#ffd700] hover:-translate-y-1 transition-transform duration-150 ease-in
+                hover:bg-very-dark-blue hover:shadow-[4px_4px_0px_#ffd700] hover:-translate-y-1 transition-all duration-150 ease-in
               '>
                 <h1 className='text-[1.75rem] whitespace-nowrap'>computer science, software engennering</h1>
                 <p className='opacity-60 text-[1.2rem] italic'>the higher school of computer science ESI <span className='normal-case'>ex</span>  INI - Algiers  </p>
@@ -42,7 +42,7 @@ const Career = () => {
             </div>
           </div>
           <div className='infos w-[45%] mt-4 py-2'>
-            <legend className="w-fit ml-[50%] translate-x-[-50%] border-2 border-primary-yellow rounded-3xl py-1 px-8 font-semibold text-xl text-primary-yellow">
+            <legend className="w-fit ml-[50%] translate-x-[-50%] border-2 border-primary-yellow rounded-3xl py-1 px-8 font-semibold text-xl text-primary-yellow text-opacity-90" >
               Internships
             </legend>
             <div className=' flex gap-8 mt-8'>
@@ -54,7 +54,7 @@ const Career = () => {
               <div
                 className='
                 border-[1px] border-primary-yellow px-2.5 py-2 capitalize w-full text-center font-Futura
-                hover:bg-very-dark-blue hover:shadow-[4px_4px_0px_#ffd700] hover:-translate-y-1 transition-transform duration-150 ease-in
+                hover:bg-very-dark-blue hover:shadow-[4px_4px_0px_#ffd700] hover:-translate-y-1 transition-all duration-150 ease-in
               '>
                 pending ...
               </div>

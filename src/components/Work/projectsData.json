@@ -1,0 +1,44 @@
+[
+    {
+        "name": "EnjoyDZ",
+        "backdrop_img": "/projectsImages/enjoyDZ-app.png",
+        "live_URL": "#",
+        "github_repo": "https://github.com/FaycalZM/EnjoyDZ_FrontEnd",
+        "description": "your best E-guide to enjoy most of Algeria. This is a project made within the 3rd year program at ESI Algiers."
+    },
+    {
+        "name": "movies website",
+        "backdrop_img": "/projectsImages/movies-app.png",
+        "live_URL": "https://movies-app-one-puce.vercel.app",
+        "github_repo": "https://github.com/FaycalZM/Movies-App",
+        "description": "this portfolio that you're exploring right now is one of my personal projects."
+    },
+    {
+        "name": "ISTATE",
+        "backdrop_img": "/projectsImages/ISTATE-app.png",
+        "live_URL": "https://tp-igl-front.vercel.app/",
+        "github_repo": "https://github.com/FaycalZM/ISTATE_FrontEnd",
+        "description": "a real estate app for people living in algeria"
+    },
+    {
+        "name": "forecast weather app",
+        "backdrop_img": "/projectsImages/weather-app.png",
+        "live_URL": "https://prismatic-treacle-d1eefd.netlify.app/",
+        "github_repo": "https://github.com/FaycalZM/Forecast-Weather-App",
+        "description": "Forecast-Weather VanillaJS application , using OpenWeather Free OneCall API."
+    },
+    {
+        "name": "Archimede",
+        "backdrop_img": "/projectsImages/archimede.png",
+        "live_URL": "https://archimede-site.netlify.app/",
+        "github_repo": "https://github.com/NassimAm/Archimede",
+        "description": "Archimede is a desktop app that simplifies logic functions and makes its circuit representation. It was made within the second year project program at ESI Algiers."
+    },
+    {
+        "name": "cocktailsDB",
+        "backdrop_img": "/projectsImages/cocktails-app.png",
+        "live_URL": "https://faycalzm.github.io/CocktailsDB/",
+        "github_repo": "https://github.com/FaycalZM/CocktailsDB",
+        "description": "the perfect website for cocktails lovers 🍹."
+    }
+]
