@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import { Routes, Route } from 'react-router'
 import SidebarNav from './components/Sidebar/SidebarNav'
 import './App.css'
@@ -8,7 +7,7 @@ import Career from './components/Career/Career'
 import Projects from './components/Work/Projects'
 import Contact from './components/Contact/Contact'
 import NotFound from './components/NotFoundPage/NotFound'
-import AnimatedPage from './components/AnimatedPage'
+
 
 function App() {
   return <main className='main-page w-full h-full bg-very-dark-blue'>

@@ -20,7 +20,7 @@ const HeroSection = () => {
       <div className='w-[90%] m-auto flex justify-around items-center '>
         <div>
           <span
-            className='tag block font-LaBelleAurore text-primary-yellow text-xl opacity-75'>&lt;h1&gt;</span>
+            className='tag block font-LaBelleAurore text-primary-yellow text-xl opacity-75 -ml-4'>&lt;h1&gt;</span>
 
           <AnimatedLetters
             animatedText={salutaion}
@@ -47,6 +47,8 @@ const HeroSection = () => {
             animatedTextClass={animatedTextClass}
             startingIndex={14}
           />
+          <span
+            className='tag font-LaBelleAurore text-primary-yellow text-xl opacity-75 -ml-4'>&lt;/h1&gt;</span>
 
           <p className='titles opacity-70 capitalize text-lg tracking-wide'>frontend developer | software engeneering student at esi algiers</p>
           <div className='flex gap-8'>

@@ -3,7 +3,7 @@
     font-family: 'FuturaPT', sans-serif;
     font-weight: 700;
     font-style: oblique;
-    animation: bounceInUp 1.3s 1s backwards;
+    animation: bounceInUp 1.3s backwards;
 }
 
 nav>a {

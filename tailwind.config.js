@@ -17,7 +17,8 @@ export default {
         'secondary-gray': '#4d4d4e',
         'very-dark-blue': '#022c43',
         'very-dark-gray': '#181818',
-        'dark-gray': '#333'
+        'dark-gray': '#333',
+        'dark-blue': '#115173'
       }
     },
   },

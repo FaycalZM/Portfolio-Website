@@ -19,7 +19,7 @@ const AnimatedPage = ({ children }) => {
 
     return (
         <motion.div
-            className='w-[90%] h-[80vh] pb-2'
+            className='w-[90%] pb-2'
             variants={animations}
             initial='initial'
             animate='animate'

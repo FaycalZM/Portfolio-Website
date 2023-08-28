@@ -8,9 +8,9 @@ const Project = ({ project, index }) => {
     return (
         <div className='card' style={{ animationDelay: `${0.7 + index / 10}s` }}>
             <div
-                className="project-card max-h-[32.5vh] h-[32.5vh] rounded-md relative overflow-y-hidden cursor-pointer
+                className="project-card max-h-[32.5vh] h-[32.5vh] relative overflow-y-hidden cursor-pointer 
                 after:content-[''] after:h-full after:w-full after:bg-very-dark-blue after:bg-opacity-90 after:absolute after:top-full
-                hover:after:top-0 hover:after:transition-all hover:after:duration-300"
+                hover:after:top-0 hover:after:transition-all hover:after:duration-300 "
             >
                 <img
                     className='absolute h-full w-full z-0'

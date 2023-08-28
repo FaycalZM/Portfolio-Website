@@ -1,0 +1,14 @@
+.animated-letter-hover:hover {
+    color: var(--primary-white);
+    transition: .25s ease-in;
+}
+
+form input,
+form textarea,
+form button {
+    animation: bounceInLeft 1s backwards;
+}
+
+.map-container {
+    animation: bounceInRight 1s .6s backwards;
+}
