@@ -8,5 +8,11 @@
 }
 
 .arrow-icon {
-    animation: bounceIn 1.5s 2s infinite backwards;
+    animation: bounceIn 1.5s 1.25s infinite backwards;
+}
+
+@media screen and (max-width : 767px) {
+    .arrow-icon {
+        display: none;
+    }
 }

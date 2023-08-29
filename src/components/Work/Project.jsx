@@ -6,9 +6,9 @@ import 'animate.css'
 
 const Project = ({ project, index }) => {
     return (
-        <div className='card tablet:snap-center' style={{ animationDelay: `${0.7 + index / 10}s` }}>
+        <div className='card tablet:snap-center mb-4 tablet:mb-0' style={{ animationDelay: `${0.7 + index / 10}s` }}>
             <div
-                className="project-card max-h-[37.5vh] laptop:h-[32.5vh] laptop:w-auto tablet:w-[81vw] tablet:h-[37.5vh] relative overflow-y-hidden cursor-pointer 
+                className="project-card max-h-[40vh] laptop:h-[32.5vh] tablet:h-[37.5vh] h-[30vh] laptop:w-auto tablet:w-[81vw]  relative overflow-y-hidden cursor-pointer
                 after:content-[''] after:h-full after:w-full after:bg-very-dark-blue after:bg-opacity-90 after:absolute after:top-full
                 hover:after:top-0 hover:after:transition-all hover:after:duration-300 laptop:hover:border-[0.5px] laptop:hover:border-primary-yellow"
             >

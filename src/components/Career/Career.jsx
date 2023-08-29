@@ -6,17 +6,17 @@ import './career.css'
 const Career = () => {
   return (
     <AnimatedPage>
-      <div className='laptop:h-[80vh] tablet:h-[85vh]'>
-        <div className='section-header flex items-baseline gap-4 -mt-10'>
+      <div className='laptop:h-[80vh] tablet:h-[85vh] h-fit laptop::mb-0 tablet:mb-4 mb-12'>
+        <div className='section-header flex items-baseline gap-4 tablet:-mt-10 mt-12'>
           <h1 className='text-primary-white text-4xl font-bold font-Futura capitalize '>About me</h1>
-          <hr className='laptop:h-[1px] tablet:h-0.5 rounded-lg border-none opacity-80 flex-1 bg-primary-yellow' />
+          <hr className='laptop:h-[1px] tablet:h-0.5 h-1 rounded-lg border-none opacity-80 flex-1 bg-primary-yellow' />
         </div>
-        <div className='container flex laptop:flex-row tablet:flex-col laptop:justify-between'>
-          <div className='infos laptop:w-[45%] tablet:w-full mt-2 py-2 '>
+        <div className='container flex laptop:flex-row flex-col laptop:justify-between px-2 tablet:px-0'>
+          <div className='infos laptop:w-[45%] w-full mt-4 py-2 '>
             <legend className="w-fit ml-[50%] translate-x-[-50%] border-2 border-primary-yellow rounded-3xl py-1 px-8 font-semibold text-xl text-primary-yellow text-opacity-90">
               Education
             </legend>
-            <div className='flex gap-8 laptop:mt-8 tablet:mt-6'>
+            <div className='flex gap-8 laptop:mt-8 mt-6'>
               <div className='flex flex-col items-center'>
                 <div className='w-[12px] h-[12px] rounded-full bg-primary-yellow border-2 border-primary-yellow'></div>
                 <div className='h-full w-[2px] bg-primary-white opacity-95'></div>
@@ -45,7 +45,7 @@ const Career = () => {
             <legend className="w-fit ml-[50%] translate-x-[-50%] border-2 border-primary-yellow rounded-3xl py-1 px-8 font-semibold text-xl text-primary-yellow text-opacity-90" >
               Internships
             </legend>
-            <div className=' flex gap-8 laptop:mt-8 tablet:mt-6'>
+            <div className=' flex gap-8 laptop:mt-8 mt-6'>
               <div className='flex flex-col items-center'>
                 <div className='w-[12px] h-[12px] rounded-full bg-primary-yellow border-2 border-primary-yellow'></div>
                 <div className='h-full w-[2px] bg-primary-white opacity-95'></div>

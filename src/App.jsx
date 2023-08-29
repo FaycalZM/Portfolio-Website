@@ -7,15 +7,17 @@ import Career from './components/Career/Career'
 import Projects from './components/Work/Projects'
 import Contact from './components/Contact/Contact'
 import NotFound from './components/NotFoundPage/NotFound'
+import MenuBtn from './components/MenuBtn'
 
 
 function App() {
-  return <main className='main-page w-full h-full bg-very-dark-blue'>
+  return <main className='main-page w-full h-full bg-very-dark-blue relative'>
+    <MenuBtn />
     <SidebarNav />
     <section className='
-      main-content desktop:w-[95.5vw] min-h-[100vh] desktop:ml-[4.5vw] p-4 text-primary-white relative flex justify-center items-center
-      laptop:w-[94vw] laptop:ml-[6vw] 
-      tablet:w-[92vw] tablet:ml-[8vw] tablet:p-2
+      main-content desktop:w-[95.5vw] min-h-screen h-full w-full desktop:ml-[4.5vw] p-1.5 text-primary-white relative flex justify-center items-center
+      laptop:w-[94vw] laptop:ml-[6vw] laptop:p-4
+      tablet:w-[92vw] tablet:ml-[8vw] tablet:p-2 overflow-y-hidden
     '>
       <span className='tag font-LaBelleAurore text-xl text-primary-yellow absolute top-2 left-3 opacity-75'>&lt;body&gt;</span>
       <Routes>

@@ -11,7 +11,6 @@ nav>a {
     text-align: center;
     color: var(--secondary-gray);
     font-size: 1.85rem;
-    /* animation: bounceInDown 1.2s 4s backwards; */
 }
 
 nav>a.active {
@@ -47,6 +46,31 @@ nav>a::after {
     transition: all .3s ease-out;
 }
 
+@media screen and (max-width:767px) {
+    nav>a:hover>svg {
+        opacity: 1;
+    }
+
+    nav>a::after {
+        display: none;
+    }
+
+    nav>a {
+        display: flex;
+        align-items: center;
+        gap: .65rem;
+        font-style: normal;
+    }
+
+    nav>a>span {
+        font-size: 1.5rem;
+    }
+
+    nav>a>svg {
+        font-size: 2rem;
+    }
+}
+
 nav>a:first-child::after {
     content: 'home';
 }
@@ -80,6 +104,12 @@ nav>a:nth-child(5)::after {
 
 .social-links a {
     transition: all .3s ease-out;
+}
+
+@media screen and (max-width : 767px) {
+    .social-links a {
+        font-size: 1.5rem;
+    }
 }
 
 .social-links a:hover {

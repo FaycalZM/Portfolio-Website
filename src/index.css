@@ -72,10 +72,8 @@
 
 
 html {
-  overflow-y: hidden !important;
   scroll-behavior: smooth;
   list-style: none;
-
 }
 
 * {
