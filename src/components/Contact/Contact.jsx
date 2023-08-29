@@ -1,11 +1,11 @@
 import React, { useRef, useState } from 'react'
 import AnimatedPage from '../AnimatedPage'
 import AnimatedLetters from '../AnimatedLetters/AnimatedLetters';
-import './index.css'
+import './contact.css'
 import 'animate.css'
 import emailjs from '@emailjs/browser'
 import PopupForm from './PopupForm';
-import { MapContainer, TileLayer, useMap } from 'react-leaflet';
+import { MapContainer, TileLayer } from 'react-leaflet';
 import { Marker } from 'react-leaflet';
 
 const Contact = () => {
@@ -13,7 +13,7 @@ const Contact = () => {
 	const form = useRef();
 
 	const [contactMe,] = useState(['C', 'o', 'n', 't', 'a', 'c', 't', ' ', 'M', 'e']);
-	const [animatedTextClass,] = useState('overview text-7xl/[4.5rem] tracking-tight font-bold text-primary-yellow');
+	const [animatedTextClass,] = useState('overview desktop:text-7xl/[4.5rem] laptop:text-6xl/[3.75rem] tablet:text-5xl/[3.5rem] tracking-tight font-bold text-primary-yellow');
 	const [inputStyle,] = useState('py-3 px-4 w-full bg-dark-blue focus:outline-none focus:placeholder:opacity-0 focus:shadow-[4px_4px_0px_#ffd700] focus:text-primary-yellow focus:bg-very-dark-blue focus:border-primary-yellow focus:border-[1px] focus:transition focus:duration-200 focus:ease-in placeholder:transition-opacity placeholder:duration-200 placeholder:ease-out');
 	const [popupAnimation, setPopupAnumation] = useState({ opacity: 0 });
 	const [text, setText] = useState('');
@@ -61,24 +61,26 @@ const Contact = () => {
 
 	return (
 		<AnimatedPage>
-			<div className='w-full max-h-[90vh] h-[90vh] ml-4 flex justify-evenly items-center relative'>
-				<div className='contact-form w-[45%] pr-6'>
-					<span
-						className=' block font-LaBelleAurore text-primary-yellow text-xl opacity-75 -ml-4'>&lt;h1&gt;</span>
+			<div className='w-full max-h-[90vh] h-[90vh] ml-4 flex laptop:flex-row tablet:flex-col justify-evenly items-center relative'>
+				<div className='contact-form laptop:w-[45%] laptop:pr-6 flex laptop:flex-col tablet:flex-row tablet:w-full tablet:mb-6 laptop:mb-0'>
+					<div className='tablet:w-[85%] laptop:w-auto' >
+						<span
+							className=' block font-LaBelleAurore text-primary-yellow text-xl opacity-75 -ml-4'>&lt;h1&gt;</span>
 
-					<AnimatedLetters
-						animatedText={contactMe}
-						animatedTextClass={animatedTextClass}
-						startingIndex={-5}
-					/>
+						<AnimatedLetters
+							animatedText={contactMe}
+							animatedTextClass={animatedTextClass}
+							startingIndex={-5}
+						/>
 
-					<span
-						className=' font-LaBelleAurore text-primary-yellow text-xl opacity-75 -ml-4'>&lt;/h1&gt;</span>
+						<span
+							className=' font-LaBelleAurore text-primary-yellow text-xl opacity-75 -ml-4'>&lt;/h1&gt;</span>
 
-					<p className='text-xl w-full pr-8'>
-						I'm interested in freelance & job opportunities . If you have any requests or questions please feel
-						free to reach me using the form below.
-					</p>
+						<p className='laptop:text-xl tablet:text-lg w-full pr-8 '>
+							I'm interested in freelance & job opportunities . If you have any requests or questions please feel
+							free to reach me using the form below.
+						</p>
+					</div>
 
 					<form
 						ref={form}
@@ -136,7 +138,7 @@ const Contact = () => {
 
 				</div>
 
-				<div className='map-container w-[55%] h-full relative z-0'>
+				<div className='map-container laptop:w-[55%] tablet:w-full laptop:h-full h-full tablet:mb-4 relative z-0'>
 					<MapContainer className='h-full' center={[36.7210, 3.1377]} zoom={13} scrollWheelZoom={true}>
 						<TileLayer
 							attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'

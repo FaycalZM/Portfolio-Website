@@ -8,9 +8,13 @@ import 'animate.css'
 
 const SidebarNav = () => {
     return (
-        <div className='sidebar-nav w-[4.5vw] h-[100vh] py-3 bg-very-dark-gray fixed top-0 left-0 z-10 flex flex-col justify-between'>
-            <a className='logo text-primary-white text-[3rem] font-light text-center w-full font-LeagueSpartan' href='/'><span className="font-Futura font-semibold text-primary-yellow ">F</span>z</a>
-            <nav className='w-full flex flex-col gap-6 mt-24 items-center'>
+        <div className='
+            sidebar-nav desktop:w-[4.5vw] h-[100vh] py-3 bg-very-dark-gray fixed top-0 left-0 z-10 flex flex-col justify-between
+            laptop:w-[6vw] 
+            tablet:w-[8vw]
+        '>
+            <a className='logo text-primary-white laptop:text-[3rem] tablet:text-[2.7rem] font-light text-center w-full font-LeagueSpartan' href='/'><span className="font-Futura font-semibold text-primary-yellow ">F</span>z</a>
+            <nav className='w-full flex flex-col gap-6 desktop::mt-24 items-center'>
                 <NavLink
                     exact='true'
                     activeclassname='active'

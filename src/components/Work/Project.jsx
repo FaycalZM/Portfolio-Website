@@ -6,18 +6,18 @@ import 'animate.css'
 
 const Project = ({ project, index }) => {
     return (
-        <div className='card' style={{ animationDelay: `${0.7 + index / 10}s` }}>
+        <div className='card tablet:snap-center' style={{ animationDelay: `${0.7 + index / 10}s` }}>
             <div
-                className="project-card max-h-[32.5vh] h-[32.5vh] relative overflow-y-hidden cursor-pointer 
+                className="project-card max-h-[37.5vh] laptop:h-[32.5vh] laptop:w-auto tablet:w-[81vw] tablet:h-[37.5vh] relative overflow-y-hidden cursor-pointer 
                 after:content-[''] after:h-full after:w-full after:bg-very-dark-blue after:bg-opacity-90 after:absolute after:top-full
-                hover:after:top-0 hover:after:transition-all hover:after:duration-300 "
+                hover:after:top-0 hover:after:transition-all hover:after:duration-300 laptop:hover:border-[0.5px] laptop:hover:border-primary-yellow"
             >
                 <img
                     className='absolute h-full w-full z-0'
                     src={project.backdrop_img}
                     alt="project_img" />
                 <div className='project-details opacity-0 h-full w-full relative z-10 p-4 text-center flex flex-col justify-center'>
-                    <p className='capitalize mb-3 font-light'>
+                    <p className='capitalize desktop:text-xl mb-3 font-light'>
                         {project.description}
                     </p>
                     <div className='flex justify-center gap-8'>

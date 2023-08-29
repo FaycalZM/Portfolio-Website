@@ -14,9 +14,12 @@
     cursor: default;
 }
 
+
 .animated-letter-hover:hover {
-    color: var(--primary-yellow);
+    color: var(--primary-yellow) !important;
+    transition: .25s ease-in;
 }
+
 
 .animateHover {
     animation: rubberBand 1.2s both;

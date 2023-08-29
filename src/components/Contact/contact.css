@@ -1,7 +1,4 @@
-.animated-letter-hover:hover {
-    color: var(--primary-white);
-    transition: .25s ease-in;
-}
+
 
 form input,
 form textarea,

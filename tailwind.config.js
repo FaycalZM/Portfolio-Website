@@ -19,6 +19,11 @@ export default {
         'very-dark-gray': '#181818',
         'dark-gray': '#333',
         'dark-blue': '#115173'
+      },
+      screens: {
+        'desktop': '1281px',
+        'laptop': '1025px',
+        'tablet': '768px',
       }
     },
   },

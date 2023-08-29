@@ -6,3 +6,7 @@
 .card {
     animation: bounceInDown 1s backwards;
 }
+
+.arrow-icon {
+    animation: bounceIn 1.5s 2s infinite backwards;
+}

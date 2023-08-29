@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import './index.css'
+import './animatedLetters.css'
 import 'animate.css'
 import AnimatedLetter from './AnimatedLetter'
 
