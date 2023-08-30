@@ -6,7 +6,7 @@ import './career.css'
 const Career = () => {
   return (
     <AnimatedPage>
-      <div className='laptop:h-[80vh] tablet:h-[85vh] h-fit laptop::mb-0 tablet:mb-4 mb-12'>
+      <div className='laptop:h-[80vh] tablet:h-[85vh] h-fit laptop:mb-14 tablet:mb-4 mb-12'>
         <div className='section-header flex items-baseline gap-4 tablet:-mt-10 mt-12'>
           <h1 className='text-primary-white text-4xl font-bold font-Futura capitalize '>About me</h1>
           <hr className='laptop:h-[1px] tablet:h-0.5 h-1 rounded-lg border-none opacity-80 flex-1 bg-primary-yellow' />

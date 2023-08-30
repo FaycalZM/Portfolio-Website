@@ -9,7 +9,7 @@ const GridContainer = ({ list }) => {
     return (
         <div
             className='
-            w-full px-2 tablet:px-0
+            w-full px-2 tablet:px-0 laptop:p-[4px]
             laptop:grid laptop:grid-cols-3 laptop:gap-x-8 laptop:gap-y-4 laptop:justify-center laptop:content-center mt-4
             tablet:flex tablet:overflow-x-scroll tablet:snap-x tablet:snap-mandatory
         '>
