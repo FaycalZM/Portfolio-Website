@@ -28,7 +28,7 @@ function App() {
         <Route path='/contact' element={<Contact />} />
         <Route path='*' element={<NotFound />} />
       </Routes>
-      <p className='tag font-LaBelleAurore text-xl text-primary-yellow absolute bottom-0 left-3 opacity-75'>
+      <p className='tag font-LaBelleAurore text-xl text-primary-yellow absolute bottom-0 left-3 mt-16 opacity-75'>
         <span>&lt;/body &gt;</span>
         <br />
         <span>&lt;/html&gt;</span>

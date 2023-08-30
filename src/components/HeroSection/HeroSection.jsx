@@ -17,7 +17,7 @@ const HeroSection = () => {
 
   return (
     <AnimatedPage>
-      <div className='laptop:w-[90%] tablet:w-[97%] m-auto flex flex-col-reverse tablet:flex-row justify-around items-center '>
+      <div className='laptop:w-[90%] tablet:w-[97%] h-fit m-auto flex flex-col-reverse tablet:flex-row justify-around items-center '>
         <div className='flex flex-col items-center tablet:block'>
           <div>
             <span
@@ -53,7 +53,8 @@ const HeroSection = () => {
           </div>
 
           <p className='titles opacity-70 text-center w-[87.5%] mt-2 tablet:text-left capitalize laptop:text-lg tablet:w-[90%] tracking-wide'>frontend developer | software engeneering student at esi algiers</p>
-          <div className='flex px-6 tablet:px-0 w-full gap-8 text-center'>
+
+          <div className='flex px-6 tablet:px-0 w-full gap-8 text-center mb-14 tablet:mb-2'>
             <Link
               to={'/contact'}
               className="btn flex-1 tablet:flex-none text-primary-yellow laptop:text-xl tablet:text-lg font-bold border-primary-yellow border-2 p-2.5 mt-6 capitalize transition-all duration-150 ease-in
@@ -68,6 +69,7 @@ const HeroSection = () => {
               my resume
             </a>
           </div>
+
         </div>
         <div className='avatar-container'>
           <img
